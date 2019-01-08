@@ -9,19 +9,19 @@ Install
 -------
 
 ```
-composer require kub-at/php-simple-html-dom-parser
+composer require N3X15/php-simple-html-dom-parser
 ```
 
 Usage
 -----
 
 ```php
-use KubAT\PhpSimple\HtmlDomParser;
+use SimpleHTMLDOM\HTMLDOMHelper;
 
 ...
-$dom = HtmlDomParser::str_get_html( $str );
+$dom = HTMLDOMHelper::GetFromString( $str );
 or
-$dom = HtmlDomParser::file_get_html( $file_name );
+$dom = HTMLDOMHelper::GetFromFile( $file_name );
 
 $elems = $dom->find($elem_name);
 ...

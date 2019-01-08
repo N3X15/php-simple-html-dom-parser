@@ -1,5 +1,5 @@
 <?php
-namespace simple_html_dom;
+namespace SimpleHTMLDOM;
 
 /**
  * Website: http://sourceforge.net/projects/simplehtmldom/

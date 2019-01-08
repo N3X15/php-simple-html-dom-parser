@@ -1,5 +1,5 @@
 {
-    "name": "kub-at/php-simple-html-dom-parser",
+    "name": "n3x15/php-simple-html-dom-parser",
     "description": "PHP Simple HTML DOM Parser with namespace and PHP 7.3 compatible",
     "keywords": ["html", "dom", "simple"],
     "homepage": "http://simplehtmldom.sourceforge.net/",
@@ -13,12 +13,16 @@
         {
             "name": "Jakub Stawowy",
             "email": "Kub-AT@users.noreply.github.com"
+        },
+        {
+            "name": "Robert Nelson",
+            "email": "nexisentertainment@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.3.2"
     },
     "autoload": {
-        "psr-0": { "KubAT\\PhpSimple\\HtmlDomParser": "src/" }
+        "psr-4": { "SimpleHTMLDOM\\": "src/" }
     }
 }
